@@ -70,7 +70,7 @@ export function PreguntasFrecuentesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-[#FFF8F0] relative overflow-hidden">
       {/* Background Logo Decorations */}
-      <div className="absolute bottom-1/4 left-[8%] opacity-[0.3] pointer-events-none select-none z-0">
+      <div className="absolute bottom-1/4 left-[8%] opacity-[0.3] pointer-events-none select-none z-0 hidden min-[2200px]:block">
         <img 
           src="/Logos/Citrus logo web_cafe.png" 
           alt="" 
@@ -78,7 +78,7 @@ export function PreguntasFrecuentesPage() {
           loading="lazy"
         />
       </div>
-      <div className="absolute bottom-1/4 right-[8%] opacity-[0.3] pointer-events-none select-none z-0 hidden md:block">
+      <div className="absolute bottom-1/4 right-[8%] opacity-[0.3] pointer-events-none select-none z-0 hidden min-[2200px]:block">
         <img 
           src="/Logos/Citrus logo web_cafe.png" 
           alt="" 
