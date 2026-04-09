@@ -75,13 +75,15 @@ export function PreguntasFrecuentesPage() {
           src="/Logos/Citrus logo web_cafe.png" 
           alt="" 
           className="w-[450px] h-auto"
+          loading="lazy"
         />
       </div>
-      <div className="absolute bottom-1/4 right-[8%] opacity-[0.3] pointer-events-none select-none z-0">
+      <div className="absolute bottom-1/4 right-[8%] opacity-[0.3] pointer-events-none select-none z-0 hidden md:block">
         <img 
           src="/Logos/Citrus logo web_cafe.png" 
           alt="" 
           className="w-[450px] h-auto"
+          loading="lazy"
         />
       </div>
 

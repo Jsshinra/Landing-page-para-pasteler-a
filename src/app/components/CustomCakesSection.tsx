@@ -20,6 +20,8 @@ export function CustomCakesSection() {
                 src="/images/gallery/IMG_9283.jpeg"
                 alt="Pasteles personalizados"
                 className="w-full h-[450px] object-cover object-bottom"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
             </div>

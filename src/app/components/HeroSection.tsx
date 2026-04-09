@@ -22,6 +22,9 @@ export function HeroSection() {
           alt="Hermoso pastel decorado"
           className="w-full h-full object-cover"
           style={{ objectPosition: 'center 40%' }}
+          loading="eager"
+          decoding="sync"
+          {...({ fetchpriority: "high" } as any)}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
       </div>
@@ -33,7 +36,7 @@ export function HeroSection() {
             Pasteles Artesanales que Endulzan tus Momentos
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed">
-            Diseñá el pastel perfecto para tu ocasión.
+            Diseñá el pastel perfecto para tu ocasión en Mérida, México.
             Personalizá cada detalle y recibí tu cotización al
             instante por WhatsApp
           </p>

@@ -69,6 +69,8 @@ export function GallerySection() {
                 src={image}
                 alt={`Pastel ${index + 1}`}
                 className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           ))}

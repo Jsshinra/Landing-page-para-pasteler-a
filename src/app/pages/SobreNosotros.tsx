@@ -58,6 +58,8 @@ export function AboutPage() {
               src="/Logos/Citrus logo web_Citrusita personje.png"
               alt="Citrusita"
               className="w-full h-[450px] object-contain"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
